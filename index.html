@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade M03</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Olá</h1>
+    <p><b>Acesse o devtools para ver o código</b></p>
+    <p>Esta página é apenas um rosto para o código em JavaScript que está sendo executado. 
+    <br> A atividade é sobre manipualação de Listas, Pilhas e Filas</p>
+    <h3>Por que o vetor fica bagunçado?</h3>
+    <p>Porque quando o retiramos os itens da pilha LIFO, o último item adicionado é o primeiro a ser retirado.
+    <br>Assim, quando todos os itens são movidos para a fila, eles estão na ordem contrária a ordem inicial,<br> e o mesmo acontece
+    com a segunda parte adicionada mais tarde ao vetor.
+    </p>
+    <h3>E assim o vetor que deveria intuitivamente resultar em [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</h3>
+    <h3>Resulta em: [5, 4, 3, 2, 1, 10, 9, 8, 7, 6]</h3>
+    <h3>Tudo isso por conta da forma LIFO em que a pilha trabalha</h3>
+    <p>Last In, First Out</p>
+    <script src="main.js"></script>
+</body>
+</html>

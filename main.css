@@ -1,0 +1,17 @@
+body {
+    display: block;
+    justify-items: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 100px 0 0 0;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    padding: auto;
+}  
